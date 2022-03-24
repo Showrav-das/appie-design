@@ -1,0 +1,140 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+:root{
+    --gradient:linear-gradient(#814096,#f83292);
+    --pink:#f83292;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.mobile{
+    background-image: url("images/all-images/home-bg-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ .navbar{
+    background-color: white;
+} */
+.nav-link{
+    color:white;
+}
+span,.nav-link:hover{
+    color:#f83292;
+}
+.mobile img{
+    width: 40vw;
+}
+.app{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.button-all{
+    border: none;
+    color: white;
+    padding: .7rem 2rem;
+    border-radius: 5rem;
+    background-image: linear-gradient(#814096,#f83292);
+}
+/* button hover  */
+.button-all:hover{
+    transform: scale(1.2);
+    transition: transform 3s ease-in-out;
+}
+.all-h1{
+  /* background: var(--gradient); */
+  background-image: linear-gradient(#814096,#f83292);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+.card img{
+    width: 231px;
+    height: 200px;
+}
+.card{
+    border: none;
+}
+.card-footer{
+    border: none;
+    background-color: white;
+}
+.about-app{
+    margin-top: 50px;
+    background-image: url("images/all-images/about-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.subscribe{
+    background-image: url("images/all-images/subscribe-bg.png");
+    /* background-position: center; */
+    /* color: white; */
+    padding: 100px;
+}
+.form-control{
+    width: 800px;
+    height: 4rem;
+    margin-left: 40px;
+}
+form{
+    width: 1000px;
+    display: flex;
+    border: .2rem solid #fff;
+    height: 5.5rem;
+    padding:.5rem ;
+    border-radius: 5rem;
+}
+.form-button{
+    padding-right: 20px;
+    border: none;
+    border-radius:1rem ;
+    text-align: center;
+    background-color: var(--pink);
+}
+
+.middle-section>p,h2{
+    color: white;
+}
+.plan{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.card-header{
+    color:var(--pink);
+    background-color: white;
+    border: none;
+    font-weight: bold;
+}
+.pricing:hover{
+    border: 2px solid red;
+    overflow: hidden;
+}
+.contact img{
+    width: 100%;
+}
+.form-input{
+    width: 80%;
+    padding: 10px;
+}
+.contact-last{
+    overflow: hidden;
+}
+textarea{
+    width: 80%;
+    height: 100px;
+    border: 1px solid grey;
+    /* border-style: none; */
+}
+footer{
+    background-image: url("images/all-images/footer-bg.png");
+    background-repeat: no-repeat;
+    padding: 80px;
+    color: white;
+}
+
